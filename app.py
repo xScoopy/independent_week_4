@@ -8,5 +8,8 @@ every function & class to explain what the code does.
 """
 from events_app import app
 
+#statement to get rid of database
+#export SQLALCHEMY_DATABASE_URI=sqlite:///database.db
+
 if __name__ == "__main__":
     app.run(debug=True)
